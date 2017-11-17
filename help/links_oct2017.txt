@@ -1,0 +1,142 @@
+ drupal 8
+ 
+ drupal 8 twig template tutorial
+ https://www.google.co.in/search?rlz=1C1CHWA_enIN561IN573&q=drupal+8+twig+template+tutorial&oq=drupal+8+twig+template+tutorial&gs_l=psy-ab.3...17870.20533.0.21653.9.9.0.0.0.0.159.1092.4j5.9.0....0...1.1.64.psy-ab..0.1.97...35i39k1j0i13i30k1.0.wauJExKn3IY
+ 
+ https://knpuniversity.com/screencast/twig/basics
+ 
+ https://sqndr.github.io/d8-theming-guide/twig/twig-basics.html
+ 
+ https://www.ostraining.com/blog/drupal/
+ 
+ https://www.ostraining.com/blog/drupal/7-vs-8/
+ 
+ https://www.drupal.org/node/1823416
+ 
+ https://www.drupal.org/docs/8/theming
+ 
+ https://www.drupal.org/docs/8/theming-drupal-8/defining-a-theme-with-an-infoyml-file
+ 
+ http://symfony.com/doc/current/components/yaml/yaml_format.html
+ 
+ Creating Layouts with the Layout Plugin Module in Drupal 8
+ 
+   https://www.youtube.com/watch?v=4g4w0kipyNs
+ 
+   https://www.youtube.com/watch?v=Wwsuze0jfZo
+   
+Drupal 8 Now: Object Oriented plugins in Drupal 7
+https://www.previousnext.com.au/blog/drupal-8-now-object-oriented-plugins-drupal-7
+ 
+ pagemanager in drupal 8
+ https://www.xenomedia.com/blog/using-page-manager-customize-user-display-drupal-8
+ 
+ How to Build Custom Pages Using Page Manager and Panels in Drupal 8
+ https://www.webwash.net/how-to-build-pages-using-page-manager-and-panels-in-drupal-8/
+ 
+ https://www.drupal.org/node/2867565
+ 
+ theming drupal 8
+ https://www.drupal.org/docs/8/theming/upgrading-7x-themes-to-8x
+ 
+ https://www.youtube.com/watch?v=xdifbN3y5hU
+ 
+ https://www.drupal.org/docs/8/theming-drupal-8/adding-stylesheets-css-and-javascript-js-to-a-drupal-8-theme#external
+ 
+ drupal 8 theme folder structure
+ https://www.drupal.org/docs/8/theming-drupal-8/drupal-8-theme-folder-structure
+ 
+ Drupal 8 Module Development, Part 3: Plugins
+ https://getlevelten.com/blog/ian-whitcomb/drupal-8-module-development-part-3-plugins
+ 
+ ***
+ http://befused.com/drupal/first-drupal8-module
+ 
+ Drupal 8 Site Building, 10.5: Override Layout Template
+ https://www.youtube.com/watch?v=Spo1_KVtmtE
+ 
+ How to Programmatically Create a Block in Drupal 8
+ https://www.webwash.net/programmatically-create-block-drupal-8/
+ 
+ http://valuebound.com/resources/blog/drupal-8-how-to-create-a-custom-block-programatically
+ 
+ http://enzolutions.com/articles/2015/11/21/how-to-manipulate-an-entityblock-programmatically-in-drupal-8/
+ 
+ Creating a custom form in a block in two steps in Drupal 8
+ http://valuebound.com/resources/blog/creating-a-custom-form-in-a-block-in-two-steps-in-Drupal-8
+ 
+ Adding configuration options to a block type's form
+ https://www.drupal.org/node/1880620
+ 
+ *** Create a configurable Block programmatically
+ https://www.drupal8.ovh/en/tutoriels/270/create-a-configurable-block-programmatically
+ 
+ Add twig template to a custom Module, Block or Page
+ https://www.drupal8.ovh/index.php/en/tutoriels/140/add-twig-template-to-a-custom-module-block-or-page
+ 
+ https://www.drupal8.ovh/index.php/en/tags/drupal-8?page=1
+ 
+ Create a new Plugin type using Drupal 8 Plugin API
+ https://www.drupal8.ovh/en/tutoriels/186/create-a-new-plugin-type-using-drupal-8-plugin-api
+ 
+ Entityquery in Drupal 8
+ https://www.drupal.org/node/1827278
+ 
+ Using the entity API in Drupal 8
+ https://lakshminp.com/using-entity-api-drupal-8
+ 
+ create panel page for taxonomy term page
+ https://drupal.stackexchange.com/questions/219028/create-panel-page-for-taxonomy-term-page
+ 
+ Defining own service in drupal 8 to use custom class in other modules
+ http://valuebound.com/resources/blog/how-to-define-your-own-services-drupal-8
+ 
+ Apache Solr 3 on Drupal 7 Turtorial with screen shots
+ https://web3us.com/drupal6/how-create-web-site-handbook/apache-solr-drupal/apache-solr-3-drupal-7-turtorial-screen-shots%26sa
+ 
+ advanced site building
+ https://buildamodule.com/collection/advanced-site-building-in-drupal-7#viewing
+ 
+ 10 things i learnet in drupal 8
+ http://www.pixelite.co.nz/article/10-things-i-learnt-building-in-drupal-8/
+ 
+ Drupal - How to Guides
+ https://web3us.com/drupal6/drupal-6-how-guides
+ 
+ https://www.youtube.com/user/DrupalAssociation/
+ 
+ Altering, Extending, and Enhancing Drupal 8
+ https://events.drupal.org/neworleans2016/sessions/altering-extending-and-enhancing-drupal-8
+ 
+ 
+ http://codekarate.com/codekarate-posts/type/daily_dose_of_drupal?search_api_views_fulltext=&page=2
+ 
+ https://telecomtalk.info/a-handy-guide-to-satellites-used-for-broadcasting-dth-signals-in-india/141807/
+ 
+ cached websites
+ https://www.lifewire.com/highlight-keyword-google-cache-search-1616811
+ 
+ heart attack symptoms
+ https://herbal-m-e-d-i-c-i-n-e.blogspot.com/2017/08/if-you-have-these-6-symptoms-you-could.html
+ 
+ drupal help
+ http://www.codeexpertz.com/category/drupal
+ drupal security
+ http://www.codeexpertz.com/blog/drupal/drupal-and-security-advice-site-builders-and-coders
+ 
+ https://gotohayato.com/?page=18
+ 
+ drush not recognize new update
+ https://gotohayato.com/content/48
+ 
+ custom layout in drupal 7
+ https://www.youtube.com/watch?v=gmX2jnH9Kdg
+ 
+ instrumental songs
+ https://www.indiamp3.com/instrumental-mp3-songs
+ 
+ drupal migration
+ https://umaradil.wordpress.com/2013/05/23/a-simple-guide-to-drupal-to-drupal-migration/
+ 
+ 
+ 
