@@ -11,19 +11,39 @@ use Drupal\Core\Controller\ControllerBase;
 use Drupal\Core\Block\Plugin\Block;
 use Drupal\taxonomy\Entity\Term;
 use Drupal\Core\Path\AliasManager;
+use Drupal\Core\GeneratedUrl;
+use Drupal\Core\Language\Language;
+use Drupal\Core\Link;
+use Drupal\Core\Url;
+use Drupal\Core\Utility\LinkGenerator;
+use Drupal\Core\GeneratedLink;
 
 class CategorizedArticleController extends ControllerBase {
 
   public function cat_article_main($category) {
 
-    print_r($category);
+    //print_r($category);
     //return $category;
     $term = Term::load($category);
     $name = $term->getName();
+    print($term->url());
+    $tlink = $term->url();
 
+    //print '<pre>';print_r($term);print '</pre>';
     $aliasManager = \Drupal::service('path.alias_manager');
     // The second argument to getAliasByPath is a language code such as "en" or LanguageInterface::DEFAULT_LANGUAGE.
     $more_url = $aliasManager->getAliasByPath('/taxonomy/term/' . $category);
+
+
+    $url = Url::fromRoute('<front>', [], ['attributes' => ['class' => ['foo', 'bar']]]);
+
+    $url->setUrlGenerator($this->urlGenerator);
+
+    $link = Link::fromTextAndUrl('text', $url)->toString();
+
+    print($link);
+
+  //$internal_link = \Drupal::l(t('Book admin'), $url);
 
 
 
