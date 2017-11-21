@@ -129,7 +129,7 @@ https://www.previousnext.com.au/blog/drupal-8-now-object-oriented-plugins-drupal
  drush not recognize new update
  https://gotohayato.com/content/48
  
- custom layout in drupal 7
+ custom layout in drupal 8
  https://www.youtube.com/watch?v=gmX2jnH9Kdg
  
  instrumental songs
@@ -137,6 +137,10 @@ https://www.previousnext.com.au/blog/drupal-8-now-object-oriented-plugins-drupal
  
  drupal migration
  https://umaradil.wordpress.com/2013/05/23/a-simple-guide-to-drupal-to-drupal-migration/
+
+drupal 8 create link
+
+https://drupal.stackexchange.com/questions/144992/how-do-i-create-a-link
  
  
  
