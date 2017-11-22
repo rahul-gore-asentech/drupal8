@@ -82,7 +82,14 @@ https://www.previousnext.com.au/blog/drupal-8-now-object-oriented-plugins-drupal
  Entityquery in Drupal 8
  https://www.drupal.org/node/1827278
  
- Using the entity API in Drupal 8
+ https://drupal.stackexchange.com/questions/226396/perform-a-query-with-an-entity-field-condition-with-multiple-values
+ 
+ Namespace
+
+Drupal\Core\Entity\Query
+
+ 
+ Using the entity API in Drupal 8 get node data create node
  https://lakshminp.com/using-entity-api-drupal-8
  
  create panel page for taxonomy term page
