@@ -4,7 +4,10 @@ function custom_article_theme($existing, $type, $theme, $path) {
 
   return [
     'categorized_article_main' => [
-      'variables' => ['category_name' => 'cat', 'category_linked' => NULL, 'categorized_article_listing' => NULL ],
+      'variables' => ['category_name' => 'cat', 'category_linked' => NULL, 'categorized_article_listing' => 'Listing Here1' ],
+    ],
+    'categorized_article_listing' => [
+      'variables' => ['image' => 'img', 'primay_category' => NULL, 'post_date' => NULL, 'title' => NULL],
     ],
   ];
 
