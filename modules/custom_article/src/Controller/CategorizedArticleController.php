@@ -57,12 +57,15 @@ class CategorizedArticleController extends ControllerBase {
     /**/
 
     $nodes = CategorizedArticleController::get_cat_articles($category);
-    $node_listing = '';
+    $node_list_html = '';
     //print '<pre>';print_r($nodes);print '</pre>';
     foreach($nodes as $node) {
       $node_list_data = CategorizedArticleController::cat_article_listing($node);
-      $node_listing .= \Drupal::service('renderer')->render($node_list_data);
-      //print '<pre>';print($node_listing);print '</pre>';
+      $node_listing = \Drupal::service('renderer')->render($node_list_data);
+      //print '<pre>';
+      print($node_listing);
+      //print '</pre>';
+      $node_list_html .= $node_listing;
     }
       //$node_list_data = \Drupal::service('renderer')->render($node_listing);
     return [
@@ -70,7 +73,7 @@ class CategorizedArticleController extends ControllerBase {
       '#category_name' => $name,
       '#category_linked' => $link,
       //'#categorized_article_listing' => 'Listing here...',
-      '#categorized_article_listing' => $node_listing,
+      '#categorized_article_listing' => $node_list_html,
       //'variables' => ['category_name' => 'cat2', 'category_linked' => 'More Cat2', 'categorized_article_listing' => 'Listing here2' ],
       //'#test_var' => t('Test Value'),
     ];/**/
