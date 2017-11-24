@@ -71,8 +71,12 @@ https://www.previousnext.com.au/blog/drupal-8-now-object-oriented-plugins-drupal
  *** Create a configurable Block programmatically
  https://www.drupal8.ovh/en/tutoriels/270/create-a-configurable-block-programmatically
  
+ https://www.drupal8.ovh/tutoriels/107/create-a-simple-block-programmatically
+ 
  Add twig template to a custom Module, Block or Page
  https://www.drupal8.ovh/index.php/en/tutoriels/140/add-twig-template-to-a-custom-module-block-or-page
+ 
+ http://www.tothenew.com/blog/how-to-programmatically-replace-the-content-in-the-custom-block-in-drupal-8/
  
  https://www.drupal8.ovh/index.php/en/tags/drupal-8?page=1
  
@@ -91,6 +95,9 @@ Drupal\Core\Entity\Query
  
  Using the entity API in Drupal 8 get node data create node
  https://lakshminp.com/using-entity-api-drupal-8
+ 
+ get Node values
+ http://www.zyxware.com/articles/5555/drupal-how-can-we-load-node-file-taxonomy-entities-by-id-in-drupal-8
  
  create panel page for taxonomy term page
  https://drupal.stackexchange.com/questions/219028/create-panel-page-for-taxonomy-term-page
