@@ -19,6 +19,7 @@ use Drupal\Core\Utility\LinkGenerator;
 use Drupal\Core\GeneratedLink;
 use Drupal\Core\Entity\Query;
 use Drupal\node\Entity\Node;
+use Drupal\image\Entity\ImageStyle;
 
 
 
@@ -63,7 +64,7 @@ class CategorizedArticleController extends ControllerBase {
       $node_list_data = CategorizedArticleController::cat_article_listing($node);
       $node_listing = \Drupal::service('renderer')->render($node_list_data);
       //print '<pre>';
-      print($node_listing);
+      //print($node_listing);
       //print '</pre>';
       $node_list_html .= $node_listing;
     }
@@ -106,11 +107,28 @@ class CategorizedArticleController extends ControllerBase {
   public function cat_article_listing($node) {
 
     //print '<pre>';print_r($node);print '</pre>';
-    //print $node->get('title')->value;
+    //print $node->get('nid')->value;
+    //\Drupal::moduleHandler()->getModule('custom_article')->getPath();
+    $nid = $node->get('nid')->value;
+
+    $options = array('absolute'=>TRUE);
+    $url = Url::fromRoute('entity.node.canonical', [ 'node'=>$nid ], $options);
+    $title_url = $url->toString();
+    $turl = Url::fromUri($title_url);
+    //$turl->setUrlGenerator($this->urlGenerator);
     $title = $node->get('title')->value;
+    $title_link = Link::fromTextAndUrl($title, $turl)->toString();
+
+    $image_uri = ImageStyle::load('bnc_article_category_page')->buildUrl($node->field_article_image->entity->getFileUri());
+    $pri_cat = $node->get('field_news_articles_terms')->target_id;
+    $pri_term = Term::load($pri_cat);
+    $pri_name = $pri_term->getName();
+
     return [
       '#theme' => 'categorized_article_listing',
-      '#title' => $title,
+      '#title' => $title_link,
+      '#image' => $image_uri,
+      '#primary_category' => $pri_name,
 
     ];
 

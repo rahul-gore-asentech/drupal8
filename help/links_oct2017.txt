@@ -65,6 +65,8 @@ https://www.previousnext.com.au/blog/drupal-8-now-object-oriented-plugins-drupal
  Creating a custom form in a block in two steps in Drupal 8
  http://valuebound.com/resources/blog/creating-a-custom-form-in-a-block-in-two-steps-in-Drupal-8
  
+ http://www.tothenew.com/blog/how-to-programmatically-replace-the-content-in-the-custom-block-in-drupal-8/
+ 
  Adding configuration options to a block type's form
  https://www.drupal.org/node/1880620
  
@@ -88,6 +90,8 @@ https://www.previousnext.com.au/blog/drupal-8-now-object-oriented-plugins-drupal
  
  https://drupal.stackexchange.com/questions/226396/perform-a-query-with-an-entity-field-condition-with-multiple-values
  
+ https://docs.acquia.com/article/lesson-61-entity-queries-and-loading-entities
+ 
  Namespace
 
 Drupal\Core\Entity\Query
@@ -98,6 +102,18 @@ Drupal\Core\Entity\Query
  
  get Node values
  http://www.zyxware.com/articles/5555/drupal-how-can-we-load-node-file-taxonomy-entities-by-id-in-drupal-8
+ 
+ https://blog.42mate.com/how-to-do-some-basic-code-things-in-drupal-8/
+ 
+ 
+ get image url and set image style
+ https://drupal.stackexchange.com/questions/224294/how-to-get-an-image-url-from-a-field-in-a-twig-template
+ 
+ https://drupal.stackexchange.com/questions/137319/getting-the-image-url-from-a-field-image-on-a-node
+ 
+ https://www.drupal.org/node/2361299#comment-11591109
+ 
+ https://stackoverflow.com/questions/24754661/drupal-8-images-with-image-style
  
  create panel page for taxonomy term page
  https://drupal.stackexchange.com/questions/219028/create-panel-page-for-taxonomy-term-page
@@ -156,5 +172,6 @@ drupal 8 create link
 
 https://drupal.stackexchange.com/questions/144992/how-do-i-create-a-link
  
- 
+drupal 8 custom token
+https://stefvanlooveren.me/blog/how-create-custom-image-token-drupal-8
  
