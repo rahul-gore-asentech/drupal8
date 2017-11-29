@@ -55,6 +55,42 @@ https://www.previousnext.com.au/blog/drupal-8-now-object-oriented-plugins-drupal
  Drupal 8 Site Building, 10.5: Override Layout Template
  https://www.youtube.com/watch?v=Spo1_KVtmtE
  
+ get theme details
+ https://www.drupal8.ovh/en/tutoriels/233/get-theme-details-name-regions-libraries
+ 
+ 
+ Site Name:    
+$site_name = \Drupal::config('system.site')->get('name');
+ 
+
+Site Address (Host)
+$site_addr = "http://" . \Drupal::request()->getHost();
+
+global variables
+https://www.drupal8.ovh/index.php/en/tutoriels/91/drupal-8-global-variables-globals
+
+Get args from URL in Drupal 8
+https://www.drupal8.ovh/en/tutoriels/79/get-args-from-url-drupal-8
+Example: 
+
+    $current_url = Url::fromRoute('<current>');
+    $path = $current_url->toString();
+    //OR of you want to get the url without language prefix
+    $path = $current_url->getInternalPath();
+    $path_args = explode('/', $path);
+
+Method 2: (Get first argument from url on Drupal 8)
+
+    $request = \Drupal::request();
+    $current_path = $request->getPathInfo();
+    $path_args = explode('/', $current_path);
+    $first_argument = $path_args[1];
+
+ 
+ 
+ twig debug
+ https://www.drupal8.ovh/en/tutoriels/136/theming-enable-twig-templates%C2%A0debug
+ 
  How to Programmatically Create a Block in Drupal 8
  https://www.webwash.net/programmatically-create-block-drupal-8/
  
@@ -115,6 +151,9 @@ Drupal\Core\Entity\Query
  
  https://stackoverflow.com/questions/24754661/drupal-8-images-with-image-style
  
+ create URL
+ https://www.drupal8.ovh/en/tutoriels/275/drupal-8-url-tips-get-name-path-args
+ 
  create panel page for taxonomy term page
  https://drupal.stackexchange.com/questions/219028/create-panel-page-for-taxonomy-term-page
  
@@ -156,8 +195,24 @@ Drupal\Core\Entity\Query
  
  https://gotohayato.com/?page=18
  
+ DRUSH
  drush not recognize new update
  https://gotohayato.com/content/48
+ 
+ drush 7 and drush 8 symulteneously
+ https://modulesunraveled.com/blog/install-drush-7-and-8-and-automatically-switch-versions-based-project
+ 
+ install drush 8
+ http://whaaat.com/installing-drush-9-using-composer
+ 
+ upgrade drush
+ https://www.chapterthree.com/blog/installing-drush-8
+ 
+ drush on diff platforms
+ https://www.drupal.org/node/1791676
+ 
+ ubuntu
+ https://www.drupal.org/node/1248790
  
  custom layout in drupal 8
  https://www.youtube.com/watch?v=gmX2jnH9Kdg

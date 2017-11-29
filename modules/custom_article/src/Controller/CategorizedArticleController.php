@@ -109,6 +109,8 @@ class CategorizedArticleController extends ControllerBase {
     //print '<pre>';print_r($node);print '</pre>';
     //print $node->get('nid')->value;
     //\Drupal::moduleHandler()->getModule('custom_article')->getPath();
+    $image_uri = '';
+    $pri_name = '';
     $nid = $node->get('nid')->value;
 
     $options = array('absolute'=>TRUE);
@@ -119,14 +121,20 @@ class CategorizedArticleController extends ControllerBase {
     $title = $node->get('title')->value;
     $title_link = Link::fromTextAndUrl($title, $turl)->toString();
 
-    $image_uri = ImageStyle::load('bnc_article_category_page')->buildUrl($node->field_article_image->entity->getFileUri());
-    $pri_cat = $node->get('field_news_articles_terms')->target_id;
-    $pri_term = Term::load($pri_cat);
-    $pri_name = $pri_term->getName();
+    if(!$node->get('field_article_image')->isEmpty()){
+      $image_uri = ImageStyle::load('bnc_article_category_page')->buildUrl($node->field_article_image->entity->getFileUri());
+    }
+    if(!$node->get('field_news_articles_terms')->isEmpty()){
+      $pri_cat = $node->get('field_news_articles_terms')->target_id;
+      $pri_term = Term::load($pri_cat);
+      $pri_name = $pri_term->getName();
+    }
+    $def_img = file_create_url(drupal_get_path('module', 'custom_article') . '/images/bnc_cat_page_default_image.png');
 
     return [
       '#theme' => 'categorized_article_listing',
       '#title' => $title_link,
+      '#default_img' => $def_img,
       '#image' => $image_uri,
       '#primary_category' => $pri_name,
 

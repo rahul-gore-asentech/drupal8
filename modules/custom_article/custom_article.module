@@ -7,7 +7,7 @@ function custom_article_theme($existing, $type, $theme, $path) {
       'variables' => ['category_name' => 'cat', 'category_linked' => NULL, 'categorized_article_listing' => 'Listing Here1' ],
     ],
     'categorized_article_listing' => [
-      'variables' => ['image' => 'img', 'primary_category' => NULL, 'post_date' => NULL, 'title' => NULL],
+      'variables' => ['default_img' => NULL, 'image' => NULL, 'primary_category' => NULL, 'post_date' => NULL, 'title' => NULL],
     ],
   ];
 

@@ -1,10 +1,10 @@
 <div class="categoryarticles-list">
   <div class="article row">
     <figure class="article-figure col-xs-4">
-      {% if image %}
+      {% if image is not empty  %}
         <img src="{{ image }}" alt="">
       {% else %}
-        <img src="/img/bnc_cat_page_default_image.png" />
+        <img src="{{ default_img }}" />
       {% endif %}
     </figure>
     <div class="article-text col-xs-8">
