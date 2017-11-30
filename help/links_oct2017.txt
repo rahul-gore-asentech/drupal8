@@ -25,6 +25,9 @@
  
    https://www.youtube.com/watch?v=Wwsuze0jfZo
    
+creating theme layout example in drupal 8
+https://www.drupalaid.com/blog/our-first-site-built-with-drupal-8-how-we-did-it
+   
 Drupal 8 Now: Object Oriented plugins in Drupal 7
 https://www.previousnext.com.au/blog/drupal-8-now-object-oriented-plugins-drupal-7
  
