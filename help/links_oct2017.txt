@@ -27,6 +27,13 @@
    
 creating theme layout example in drupal 8
 https://www.drupalaid.com/blog/our-first-site-built-with-drupal-8-how-we-did-it
+
+registering layout for drupal 8.2
+https://www.drupal.org/node/2578731
+
+for 8.3 
+https://www.drupal.org/node/2619168
+https://www.drupal.org/docs/8/api/layout-api/how-to-register-layouts
    
 Drupal 8 Now: Object Oriented plugins in Drupal 7
 https://www.previousnext.com.au/blog/drupal-8-now-object-oriented-plugins-drupal-7
@@ -160,6 +167,8 @@ Drupal\Core\Entity\Query
  create panel page for taxonomy term page
  https://drupal.stackexchange.com/questions/219028/create-panel-page-for-taxonomy-term-page
  
+ https://www.drupal.org/node/2785195
+ 
  Defining own service in drupal 8 to use custom class in other modules
  http://valuebound.com/resources/blog/how-to-define-your-own-services-drupal-8
  
@@ -232,4 +241,16 @@ https://drupal.stackexchange.com/questions/144992/how-do-i-create-a-link
  
 drupal 8 custom token
 https://stefvanlooveren.me/blog/how-create-custom-image-token-drupal-8
+
+drupal sites
+https://www.drupalaid.com/blog/3-things-you-should-hide
+
+Add SSL to drupal sites
+https://www.drupalaid.com/blog/how-to-quickly-add-ssl-to-your-drupal-site
+
+page load time optimize
+https://www.drupalaid.com/blog/drupal-speed-little-things-you-can-do-reduce-your-load-time
+
+protect from spam in email form
+https://www.drupalaid.com/blog/the-secret-to-stop-form-spam-in-drupal
  
