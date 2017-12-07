@@ -18,3 +18,18 @@ https://www.drupal.org/docs/develop/standards/css/css-file-organization-for-drup
 d8 theme folder structure
 
 https://www.drupal.org/docs/8/theming-drupal-8/drupal-8-theme-folder-structure
+
+setting up Netbeans for drupal
+https://www.drupal.org/docs/develop/development-tools/configuring-netbeans
+
+Notepadd++ pattern search and replace
+Find   ([0-9]{3})([\r\n]+)
+Replace  INSERT INTO news_temp2 VALUES \( \1\);\2
+
+Search mode- regular expression
+
+3 is no of characters. \1 is first arg \2 is second arg
+
+
+
+http://www.faichi.com/blog/10-advance-git-commands-code-tracking
