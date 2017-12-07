@@ -1,0 +1,20 @@
+Drupal 8 theming
+
+google: Creating a Custom Panels Layout in Drupal 8
+
+register layout
+https://www.drupal.org/node/2578731
+
+google: drupal 8 free theme with custom panel layouts
+
+coding standard
+
+https://www.drupal.org/docs/develop/standards
+
+css file organization
+
+https://www.drupal.org/docs/develop/standards/css/css-file-organization-for-drupal-8
+
+d8 theme folder structure
+
+https://www.drupal.org/docs/8/theming-drupal-8/drupal-8-theme-folder-structure

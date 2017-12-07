@@ -1,5 +1,9 @@
  drupal 8
  
+ IDE editors for drupal 8 & configure
+ 
+ https://www.drupal.org/docs/develop/development-tools
+ 
  drupal 8 twig template tutorial
  https://www.google.co.in/search?rlz=1C1CHWA_enIN561IN573&q=drupal+8+twig+template+tutorial&oq=drupal+8+twig+template+tutorial&gs_l=psy-ab.3...17870.20533.0.21653.9.9.0.0.0.0.159.1092.4j5.9.0....0...1.1.64.psy-ab..0.1.97...35i39k1j0i13i30k1.0.wauJExKn3IY
  
@@ -98,8 +102,16 @@ Method 2: (Get first argument from url on Drupal 8)
 
  
  
+ 
+Module path in Drupal 8
+$module_handler = Drupal::service('module_handler');
+$path = $module_handler->getModule('your_module')->getPath();
+ 
  twig debug
  https://www.drupal8.ovh/en/tutoriels/136/theming-enable-twig-templates%C2%A0debug
+ 
+ calling twig in controller
+ https://gist.github.com/jmolivas/d29065493a91f16f35b2
  
  How to Programmatically Create a Block in Drupal 8
  https://www.webwash.net/programmatically-create-block-drupal-8/
@@ -154,6 +166,17 @@ Drupal\Core\Entity\Query
  
  get image url and set image style
  https://drupal.stackexchange.com/questions/224294/how-to-get-an-image-url-from-a-field-in-a-twig-template
+ 
+ multisite
+ 
+ google: drupal how to render different pages based on country
+ 
+ https://drupal.stackexchange.com/questions/104778/creating-multi-country-website-where-each-countrys-site-is-multilingual?rq=1
+ 
+ https://www.drupal.org/project/country_specific_nodes
+ 
+ https://drupal.stackexchange.com/questions/216650/how-to-split-content-for-different-target-audience
+ 
  
  https://drupal.stackexchange.com/questions/137319/getting-the-image-url-from-a-field-image-on-a-node
  
@@ -248,9 +271,17 @@ https://www.drupalaid.com/blog/3-things-you-should-hide
 Add SSL to drupal sites
 https://www.drupalaid.com/blog/how-to-quickly-add-ssl-to-your-drupal-site
 
+generate ssl
+https://www.digitalocean.com/community/tutorials/how-to-create-a-ssl-certificate-on-apache-for-ubuntu-14-04
+
 page load time optimize
 https://www.drupalaid.com/blog/drupal-speed-little-things-you-can-do-reduce-your-load-time
 
 protect from spam in email form
 https://www.drupalaid.com/blog/the-secret-to-stop-form-spam-in-drupal
+
+mysql no of occurence of specific word
+https://stackoverflow.com/questions/12344795/count-the-number-of-occurrences-of-a-string-in-a-varchar-field
+
+https://stackoverflow.com/questions/5649711/mysql-count-amount-of-times-the-words-occur-in-a-column
  
