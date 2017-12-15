@@ -7,6 +7,9 @@ https://www.drupal.org/node/2578731
 
 google: drupal 8 free theme with custom panel layouts
 
+drupal 8 views templates
+http://redcrackle.com/blog/drupal-8/theme-views-templates
+
 coding standard
 
 https://www.drupal.org/docs/develop/standards
@@ -22,6 +25,9 @@ https://www.drupal.org/docs/8/theming-drupal-8/drupal-8-theme-folder-structure
 setting up Netbeans for drupal
 https://www.drupal.org/docs/develop/development-tools/configuring-netbeans
 
+https://www.drupal.org/node/1846954
+
+
 Notepadd++ pattern search and replace
 Find   ([0-9]{3})([\r\n]+)
 Replace  INSERT INTO news_temp2 VALUES \( \1\);\2
@@ -33,3 +39,8 @@ Search mode- regular expression
 
 
 http://www.faichi.com/blog/10-advance-git-commands-code-tracking
+
+ajax form submit
+http://kali-dasan.blogspot.in/2014/07/drupal-7-ajax-form-validation-and-submit.html
+
+https://drupal.stackexchange.com/questions/5781/ajax-submitted-form-redirection

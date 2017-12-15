@@ -125,6 +125,8 @@ $path = $module_handler->getModule('your_module')->getPath();
  
  http://www.tothenew.com/blog/how-to-programmatically-replace-the-content-in-the-custom-block-in-drupal-8/
  
+ http://valuebound.com/resources/blog/how-to-create-custom-form-crud-create-delete-update-operations-drupal-8
+ 
  Adding configuration options to a block type's form
  https://www.drupal.org/node/1880620
  
