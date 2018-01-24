@@ -10,6 +10,12 @@ google: drupal 8 free theme with custom panel layouts
 drupal 8 views templates
 http://redcrackle.com/blog/drupal-8/theme-views-templates
 
+drupal 8 create view programmatically
+http://subhojit777.in/create-views-programatically-drupal8/
+
+drupal export data to csv
+https://drupal.stackexchange.com/questions/39248/how-to-export-users-to-a-csv-file
+
 coding standard
 
 https://www.drupal.org/docs/develop/standards
@@ -44,3 +50,125 @@ ajax form submit
 http://kali-dasan.blogspot.in/2014/07/drupal-7-ajax-form-validation-and-submit.html
 
 https://drupal.stackexchange.com/questions/5781/ajax-submitted-form-redirection
+
+ajax page load
+https://www.drupal.org/docs/7/api/javascript-api/simple-drupal-ajax-load-with-jquery-and-delivery-callback
+
+add plus minus to checkbox tree/ expand collapse
+https://drupal.stackexchange.com/questions/104452/with-bef-collapse-expand-items-under-their-parent
+
+https://www.drupal.org/project/taxonomy_tree_select/issues/1798068
+
+
+cygwin change to directory
+
+cd /cygdrive/c
+https://stackoverflow.com/questions/1850920/how-to-navigate-to-a-directory-in-c-with-cygwin
+
+rsync pantheon
+https://pantheon.io/docs/rsync-and-sftp/#download-a-drupal-directory-from-pantheon
+
+WAMP + PostgreSQL integration
+
+google: install postgresql in windows 8 wamp
+
+https://www.plaatsoft.nl/wamp-postgresql-integration/
+
+http://toolkt.com/site/install-postgresql-and-phppgadmin-in-windows-with-wamp/
+
+mail attachment mime types
+http://www.sitepoint.com/forums/showthread.php?135593-CSV-MIME-Types
+
+=====================================================================================================
+function GetMIMeType(cExt){
+var cExt = new String(cExt);
+cExt = cExt.toUpperCase();
+
+if(cExt == "TXT" || cExt == "TEXT" || cExt == "JS" )
+return "text/plain";
+else if(cExt == "CSV" )
+return "text/comma-separated-values"
+else if(cExt == "HTM" || cExt == "HTML" || cExt == "ASP" || cExt == "CGI" || cExt == "PL" )
+return "text/html";
+else if(cExt == "PDF" )
+return "application/pdf";
+else if(cExt == "RTF" )
+return "text/richtext";
+else if(cExt == "XML" )
+return "text/xml";
+else if(cExt == "WPD" )
+return "application/wordperfect";
+else if(cExt == "WRI" )
+return "application/mswrite";
+else if(cExt == "XLS" || cExt == "XLS3" || cExt == "XLS4" || cExt == "XLS5" || cExt == "XLW" )
+return "application/msexcel";
+else if (cExt == "DOC" )
+return "application/msword";
+else if (cExt == "PPT" || cExt == "PPS" )
+return "application/mspowerpoint"; 
+else if (cExt == "WML" )
+return "text/vnd.wap.wml";
+else if (cExt == "WMLS" )
+return "text/vnd.wap.wmlscript";
+else if (cExt == "WBMP" )
+return "image/vnd.wap.wbmp";
+else if (cExt == "WMLC" )
+return "application/vnd.wap.wmlc";
+else if (cExt == "WMLSC" )
+return "application/vnd.wap.wmlscriptc";
+else if (cExt == "GIF" )
+return "image/gif";
+else if (cExt == "JPG" || cExt == "JPE" || cExt == "JPEG" )
+return "image/jpeg";
+else if (cExt == "PNG" )
+return "image/x-png";
+else if (cExt == "BMP" )
+return "image/bmp";
+else if (cExt == "TIF" || cExt == "TIFF" )
+return "image/tiff";
+else if(cExt == "XWD" )
+return "image/x-xwindowdump";
+else if(cExt == "IEF" )
+return "image/ief";
+else if (cExt == "AI" || cExt == "EPS" || cExt == "PS" )
+return "application/postscript";
+else if (cExt == "AU" || cExt == "SND" )
+return "audio/basic";
+else if (cExt == "WAV" )
+return "audio/wav";
+else if (cExt == "RA" || cExt == "RM" || cExt == "RAM" )
+return "audio/x-pn-realaudio";
+else if (cExt == "MID" || cExt == "MIDI" )
+return "audio/x-midi";
+else if (cExt == "MP3" )
+return "audio/mp3";
+else if (cExt == "M3U" )
+return "audio/m3u";
+else if (cExt == "AVI" )
+return "video/avi";
+else if (cExt == "MPG" || cExt == "MPEG" || cCat == "MPE" )
+return "video/mpeg";
+else if (cExt == "QT" || cExt == "MOV" || cExt == "QTVR" )
+return "video/quicktime";
+else if(cExt == "MOVIE" )
+return "video/x-sgi-movie";
+else if (cExt == "SWA" )
+return "application/x-director";
+else if (cExt == "SWF" )
+return "application/x-shockwave-flash";
+else if (cExt == "COM" || cExt == "EXE" || cExt == "DLL" || cExt == "OCX" )
+return "application/octet-stream";
+else if (cExt == "PDB" )
+return "chemical/x-pdb";
+else if (cExt == "ZIP" )
+return "application/x-zip-compressed";
+else
+return "";
+}
+=====================================================================================
+
+export to excel csv
+http://www.the-art-of-web.com/php/dataexport/
+
+export to xls
+http://krasimirtsonev.com/blog/article/php-export-mysql-data-to-xls-file

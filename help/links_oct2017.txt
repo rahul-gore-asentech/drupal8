@@ -156,7 +156,9 @@ $path = $module_handler->getModule('your_module')->getPath();
 
 Drupal\Core\Entity\Query
 
- 
+ db query example
+http://saw.tl/drupal/drupal8-multiple-join-query.html
+
  Using the entity API in Drupal 8 get node data create node
  https://lakshminp.com/using-entity-api-drupal-8
  
@@ -181,6 +183,9 @@ Drupal\Core\Entity\Query
  
  
  https://drupal.stackexchange.com/questions/137319/getting-the-image-url-from-a-field-image-on-a-node
+ 
+ send /attachquerystring in routing url
+ https://drupal.stackexchange.com/questions/189305/can-we-add-the-destination-query-parameter-to-a-link-from-yml-configuration
  
  https://www.drupal.org/node/2361299#comment-11591109
  
@@ -286,4 +291,17 @@ mysql no of occurence of specific word
 https://stackoverflow.com/questions/12344795/count-the-number-of-occurrences-of-a-string-in-a-varchar-field
 
 https://stackoverflow.com/questions/5649711/mysql-count-amount-of-times-the-words-occur-in-a-column
+
+drupal 8 send mail attachment
+https://labs.techaspect.com/index.php/2017/07/07/how-to-send-a-mail-with-an-attachment-in-drupal8/
+
+https://drupal.stackexchange.com/questions/101035/send-attachments-with-drupal-mail
+
+mail add bcc
+https://drupal.stackexchange.com/questions/204798/how-do-i-set-bcc-in-the-email-i-am-sending
+
+send mail with attachment
+https://www.tutdepot.com/php-e-mail-attachment-script/
+
+https://stackoverflow.com/questions/12301358/send-attachments-with-php-mail
  
