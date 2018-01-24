@@ -172,3 +172,7 @@ http://www.the-art-of-web.com/php/dataexport/
 
 export to xls
 http://krasimirtsonev.com/blog/article/php-export-mysql-data-to-xls-file
+
+https://www.codexworld.com/export-data-to-excel-in-php/
+
+http://www.phpcodify.com/export-data-to-excel-in-php-mysql/
