@@ -300,6 +300,9 @@ https://drupal.stackexchange.com/questions/101035/send-attachments-with-drupal-m
 mail add bcc
 https://drupal.stackexchange.com/questions/204798/how-do-i-set-bcc-in-the-email-i-am-sending
 
+mail add cc attachments
+http://www.stringcat.com/company_blog/2012/10/12/complete-php-mail-script-with-to-replyto-cc-bcc-and-attachments/
+
 send mail with attachment
 https://www.tutdepot.com/php-e-mail-attachment-script/
 

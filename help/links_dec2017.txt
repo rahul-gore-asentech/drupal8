@@ -176,3 +176,39 @@ http://krasimirtsonev.com/blog/article/php-export-mysql-data-to-xls-file
 https://www.codexworld.com/export-data-to-excel-in-php/
 
 http://www.phpcodify.com/export-data-to-excel-in-php-mysql/
+
+drupal 8 get entity reference image field url
+http://drupalsun.com/glassdimly/2017/07/27/get-file-uri-media-entity-reference-item-drupal-8-or-wrong-file-loaded
+
+https://drupal.stackexchange.com/questions/229402/how-to-get-media-entity-image-entity-reference-field-url-in-twig-theme/229426
+
+https://drupal.stackexchange.com/questions/137319/getting-the-image-url-from-a-field-image-on-a-node/184636
+
+https://drupal.stackexchange.com/questions/232738/update-media-object-programatically
+
+drupal 8 get file url from fid
+https://drupal.stackexchange.com/questions/212361/how-to-get-the-url-of-a-file-field-of-a-given-node/212362
+
+drupal 8 get tid from term name
+https://drupal.stackexchange.com/questions/225209/load-term-by-name
+https://api.drupal.org/api/drupal/core%21modules%21taxonomy%21tests%21src%21Functional%21TermLanguageTest.php/8.3.x
+
+drupal 8 get child terms of tids
+https://www.webomelette.com/loading-taxonomy-terms-tree-drupal-8
+
+multiple ssh keys
+https://coderwall.com/p/7smjkq/multiple-ssh-keys-for-different-accounts-on-github-or-gitlab
+https://gist.github.com/jexchan/2351996
+
+multiple keys pantheon
+https://github.com/westonruter/pantheon-documentation/blob/master/source/docs/articles/users/generating-ssh-keys.md
+
+https://pantheon.io/docs/ssh-keys/
+https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+
+
+pantheon drush error:
+Warning: Permanently added the RSA host key for IP address '[35.225.3.211]:2222' to the list of known hosts.
+live.7aebbaac-79fe-4f63-aff7-a@appserver.live.7aebbaac-79fe-4f63-aff7-aafeb359db85.drush.in's password:
+/bin/bash: -c: line 0: unexpected EOF while looking for matching `''
+/bin/bash: -c: line 1: syntax error: unexpected end of file
