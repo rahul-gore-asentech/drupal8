@@ -200,6 +200,7 @@ multiple ssh keys
 https://coderwall.com/p/7smjkq/multiple-ssh-keys-for-different-accounts-on-github-or-gitlab
 https://gist.github.com/jexchan/2351996
 https://themeteorchef.com/tutorials/setting-up-an-ssh-config-file
+https://github.com/pantheon-systems/pantheon-settings-examples/blob/master/circle.yml
 
 multiple keys pantheon
 https://github.com/westonruter/pantheon-documentation/blob/master/source/docs/articles/users/generating-ssh-keys.md
