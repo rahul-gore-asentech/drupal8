@@ -235,3 +235,42 @@ Warning: Permanently added the RSA host key for IP address '[35.225.3.211]:2222'
 live.7aebbaac-79fe-4f63-aff7-a@appserver.live.7aebbaac-79fe-4f63-aff7-aafeb359db85.drush.in's password:
 /bin/bash: -c: line 0: unexpected EOF while looking for matching `''
 /bin/bash: -c: line 1: syntax error: unexpected end of file
+
+install terminus for pantheon
+https://pantheon.io/docs/terminus/install/
+
+setting certificate
+check php.ini path for cli -  $ where is php.ini
+https://stackoverflow.com/questions/29822686/curl-error-60-ssl-certificate-unable-to-get-local-issuer-certificate
+
+https://pantheon.io/docs/videos/drush/
+https://pantheon.io/blog/five-steps-feeling-drupal-drush
+
+Please go through the url to learn site building in Drupal 8. It’s a full video tutorial provided by Acquia.
+https://www.youtube.com/watch?v=R1ivRsz_urk&list=PLpVC00PAQQxGwyvUD_tYcBbLJqRC1CZ6U
+
+drupal form entity ref field set
+https://drupal.stackexchange.com/questions/252207/alter-field-value-in-a-form
+https://www.drupal.org/forum/support/module-development-and-code-questions/2015-12-19/drupal-8-submit-handler
+
+drupal 8 parse html get iframe tag attributes
+http://glassdimly.com/blog/tech/drupal-8-html-scraping-dom-drupal-planet/parse-html-drupal-8-get-attributes
+
+Rss Feeds
+samples-
+http://www.feedforall.com/sample-feeds.htm
+http://www.rss-specifications.com/blog-feed.xml
+
+Atom syndication format
+https://validator.w3.org/feed/docs/rfc4287.html
+
+How to Write Valid URL Query String Parameters
+https://perishablepress.com/how-to-write-valid-url-query-string-parameters/
+
+Add an image to your RSS feed item
+https://bhushankumarram.wordpress.com/2012/02/25/add-an-image-to-your-rss-feed-item/
+https://gist.github.com/mathetos/774e38c9ae1799e25cff
+https://wordpress.stackexchange.com/questions/59492/how-to-add-post-featured-image-to-rss-item-tag
+
+Developing Feeds with RSS and Atom by Ben Hammersley
+https://www.safaribooksonline.com/library/view/developing-feeds-with/0596008813/ch04s02.html

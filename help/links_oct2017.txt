@@ -307,4 +307,13 @@ send mail with attachment
 https://www.tutdepot.com/php-e-mail-attachment-script/
 
 https://stackoverflow.com/questions/12301358/send-attachments-with-php-mail
+
+How to change default taxonomy term/termid path to a custom path in drupal 7
+https://www.zyxware.com/articles/4102/drupal-how-to-change-default-taxonomy-termtermid-path-to-a-custom-path-in-drupal-7
+
+custom term path
+https://www.appnovation.com/blog/custom-taxonomy-term-pages
+
+drupal version upgrade
+https://www.youtube.com/watch?v=JUIdn7-A62Q
  
